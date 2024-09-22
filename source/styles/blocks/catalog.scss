@@ -8,6 +8,16 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+
+  @media (min-width: 1300px) {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .catalog__item {
@@ -21,6 +31,12 @@
     padding-left: 54px;
     padding-bottom: 57px;
     margin-bottom: 30px;
+  }
+
+  @media (min-width: 1300px) {
+    width: 570px;
+    padding: 76px 52px 58px;
+    margin-bottom: 0;
   }
 }
 

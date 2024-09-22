@@ -18,6 +18,15 @@
     background-position: 30px 251px;
     background-size: 709px 609px;
   }
+
+  @media (min-width: 1300px) {
+    background-image: url("../../images/promo-desktop@1x.png");
+    background-position: center 25px;
+    background-size: 552px auto;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    background-color: transparent;
+  }
 }
 
 .program__wrapper {
