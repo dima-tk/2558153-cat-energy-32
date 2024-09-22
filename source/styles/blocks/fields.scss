@@ -2,14 +2,34 @@
   font-family: "Oswald", sans-serif;
   font-size: 20px;
   text-transform: uppercase;
+
+  @media (min-width: 768px) {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+  }
 }
 
 .fields__email {
+  height: 56px;
   line-height: 30px;
   color: $main-text;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    width: 120%;
+  }
 }
 
 .fields__button {
+  width: 100%;
+  height: 56px;
+  margin-top: 20px;
   line-height: 26px;
   color: $basic-bg-second;
+
+  @media (min-width: 768px) {
+    margin-top: 0;
+    height: 62px;
+  }
 }
