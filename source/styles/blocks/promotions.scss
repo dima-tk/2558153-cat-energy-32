@@ -4,10 +4,23 @@
   @media (min-width: 768px) {
     padding-bottom: 80px;
   }
+
+  @media (min-width: 768px) {
+    padding-left: 40px;
+    padding-right: 40px;
+    overflow-x: hidden;
+  }
 }
 
 .promotions__wrapper {
   position: relative;
+
+  @media (min-width: 1300px) {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+    max-width: 1400px;
+  }
 }
 
 .promotions__wrapper::before {
@@ -24,6 +37,11 @@
     width: 110%;
     top: 20px;
     right: 0;
+  }
+
+  @media (min-width: 1300px) {
+    width: 180%;
+    right: -40%;
   }
 }
 

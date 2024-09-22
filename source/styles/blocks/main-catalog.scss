@@ -8,6 +8,11 @@
     padding-top: 26px;
     border: 0;
   }
+
+  @media (min-width: 1300px) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 
 .main-catalog__list {
@@ -21,6 +26,10 @@
     margin: 0 auto;
     justify-content: space-between;
     padding-top: 90px;
+  }
+
+  @media (min-width: 1300px) {
+    max-width: 1400px;
   }
 }
 

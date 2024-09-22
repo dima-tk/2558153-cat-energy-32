@@ -13,6 +13,11 @@
     background-color: #f2f2f2;
     border: 0;
   }
+
+  @media (min-width: 1300px) {
+    margin-bottom: 142px;
+    padding-bottom: 40px;
+  }
 }
 
 .item-card__wrapper {
@@ -41,6 +46,10 @@
     width: auto;
     height: auto;
     transform: translateX(-50%);
+  }
+
+  @media (min-width: 768px) {
+    bottom: 15px;
   }
 }
 

@@ -5,6 +5,14 @@
   @media (min-width: 768px) {
     padding: 50px 30px 60px;
   }
+
+  @media (min-width: 1300px) {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 0;
+  }
 }
 
 .main-container__title {
@@ -20,5 +28,9 @@
     font-size: 60px;
     line-height: 60px;
     padding: 0;
+  }
+
+  @media (min-width: 1300px) {
+    padding-top: 46px;
   }
 }

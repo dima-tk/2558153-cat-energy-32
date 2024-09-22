@@ -12,6 +12,16 @@
     padding-right: 30px;
     padding-top: 0;
   }
+
+  @media (min-width: 1300px) {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    min-height: 142px;
+    padding-top: 0;
+    align-items: center;
+  }
 }
 
 .main-header__menu-toggle {
@@ -30,6 +40,14 @@
 
 .main-header__logo {
   // display: block;
+}
+
+.main-header__logo-image {
+  @media (min-width: 1300px) {
+    width: 203px;
+    height: 60px;
+    margin-top: 0;
+  }
 }
 
 .main-header__menu-toggle--opened {

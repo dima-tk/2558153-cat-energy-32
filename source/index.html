@@ -41,7 +41,7 @@
         <span class="visually-hidden">Открыть меню</span>
       </button>
 
-      <nav class="main-nav main-nav--closed">
+      <nav class="main-nav main-nav--index main-nav--closed">
         <div class="main-nav__wrapper">
           <ul class="main-nav__list">
             <li class="main-nav__item main-nav__item--active">
@@ -167,7 +167,7 @@
     <section class="contacts">
       <h2 class="visually-hidden">Контакты</h2>
 
-      <div class="contacts-wrapper">
+      <div class="contacts-wrapper contacts-wrapper-bg">
         <div class="contacts_address">
           <p class="contacts_address__title">Приглашаем <br> к сотрудничеству дилеров!</p>
           <p class="contacts_address__address">ул. Большая Конюшенная, д. 19/8 <span>Санкт-Петербург</span></p>
@@ -186,38 +186,39 @@
   </main>
 
   <footer class="page-footer">
-    <div class="page-footer__item page-footer__item--logo">
-      <a class="page-footer__item-logo-link" href="index.html">
-        <h3 class="visually-hidden">Cat Energy</h3>
-        <img class="page-footer__item-logo-text" src="images/logo-text-desktop.svg" alt="Cat Energy" width="128" height="24">
-      </a>
+    <div class="page-footer__wrapper">
+      <div class="page-footer__item page-footer__item--logo">
+        <a class="page-footer__item-logo-link" href="index.html">
+          <h3 class="visually-hidden">Cat Energy</h3>
+          <img class="page-footer__item-logo-text" src="images/logo-text-desktop.svg" alt="Cat Energy" width="128" height="24">
+        </a>
+      </div>
+
+      <ul class="page-footer__item page-footer__item--social social">
+        <li class="social__item">
+          <a class="social__link social__link--icon-vk" href="#">
+            <h3 class="visually-hidden">Мы Вконтакте</h3>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--icon-youtube" href="#">
+            <h3 class="visually-hidden">Мы в Ютубе></h3>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--icon-telegram" href="#">
+            <h3 class="visually-hidden">Мы в Телеграм</h3>
+          </a>
+        </li>
+      </ul>
+
+      <div class="page-footer__item page-footer__item--author">
+        <a class="page-footer__item-author-link" href="https://htmlacademy.ru/intensive/adaptive">
+          <p class="page-footer__item-author-text">HTML Academy</p>
+          <img class="page-footer__item-author-icon" src="images/html-academy.svg" alt="Иконка" width="27" height="34">
+        </a>
+      </div>
     </div>
-
-    <ul class="page-footer__item page-footer__item--social social">
-      <li class="social__item">
-        <a class="social__link social__link--icon-vk" href="#">
-          <h3 class="visually-hidden">Мы Вконтакте</h3>
-        </a>
-      </li>
-      <li class="social__item">
-        <a class="social__link social__link--icon-youtube" href="#">
-          <h3 class="visually-hidden">Мы в Ютубе></h3>
-        </a>
-      </li>
-      <li class="social__item">
-        <a class="social__link social__link--icon-telegram" href="#">
-          <h3 class="visually-hidden">Мы в Телеграм</h3>
-        </a>
-      </li>
-    </ul>
-
-    <div class="page-footer__item page-footer__item--author">
-      <a class="page-footer__item-author-link" href="https://htmlacademy.ru/intensive/adaptive">
-        <p class="page-footer__item-author-text">HTML Academy</p>
-        <img class="page-footer__item-author-icon" src="images/html-academy.svg" alt="Иконка" width="27" height="34">
-      </a>
-    </div>
-
   </footer>
 
 </body>

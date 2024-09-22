@@ -25,6 +25,12 @@
     padding-left: 90px;
     padding-right: 30px;
   }
+
+  @media (min-width: 1300px) {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 79px 40px 0 83px;
+  }
 }
 
 .program__title {

@@ -6,6 +6,13 @@
     margin-top: -25px;
     overflow-x: hidden;
   }
+
+  @media (min-width: 1300px) {
+    padding-bottom: 45px;
+    margin: -95px auto 0;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 
 .addition-catalog__wrapper {
@@ -14,6 +21,13 @@
   @media (min-width: 768px) {
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  @media (min-width: 1300px) {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+    max-width: 1400px;
   }
 }
 
@@ -31,6 +45,11 @@
     width: 110%;
     top: 20px;
     right: -30px;
+  }
+
+  @media (min-width: 1300px) {
+    width: 180%;
+    right: -40%;
   }
 }
 
@@ -57,12 +76,25 @@
   }
 }
 
+.addition-catalog__inner {
+  @media (min-width: 1300px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 .addition-catalog__list {
   border-top: 1px solid #cdcdcd;
 
   @media (min-width: 768px) {
     border-left: 1px solid #cdcdcd;
     border-right: 1px solid #cdcdcd;
+  }
+
+  @media (min-width: 1300px) {
+    width: 75%;
+    min-width: 895px;
+    border: 0;
   }
 }
 
@@ -78,6 +110,14 @@
     align-items: center;
     padding: 0 110px 0 91px;
     margin-top: 69px;
+  }
+
+  @media (min-width: 1300px) {
+    align-self: flex-start;
+    width: 245px;
+    min-height: 289px;
+    padding: 0;
+    margin-top: 0;
   }
 }
 
@@ -96,16 +136,27 @@
     margin: 7px 0 0;
     padding: 40px 0 40px 70%;
   }
+
+  @media (min-width: 1300px) {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    padding-top: 150px;
+  }
 }
 
 .addition-catalog__promo--bg {
-  background-image: url("../../images/bg-gift-desktop@1x.png");
+  background-image: url("../../images/bg-gift-mobile@1x.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 290px;
 
   @media (min-width: 768px) {
     background-image: url("../../images/bg-gift-tablet@1x.png");
+  }
+
+  @media (min-width: 1300px) {
+    background-image: url("../../images/bg-gift-desktop@1x.png");
   }
 }
 
@@ -118,5 +169,10 @@
   @media (min-width: 768px) {
     background-size: 51px 83px;
     background-position: 0 27px;
+  }
+
+  @media (min-width: 1300px) {
+    background-position: 50% -30px;
+    background-size: 70px auto;
   }
 }

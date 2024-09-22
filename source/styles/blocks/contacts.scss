@@ -1,11 +1,23 @@
 .contacts {
   position: relative;
+
+  @media (min-width: 1300px) {
+    height: 400px;
+  }
 }
 
 .contacts-wrapper {
   @media (min-width: 768px) {
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  @media (min-width: 1300px) {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 95px;
   }
 }
 
@@ -30,6 +42,16 @@
 
   @media (min-width: 768px) {
     padding: 63px 41px 59px;
+  }
+
+  @media (min-width: 1300px) {
+    z-index: 1;
+    position: relative;
+    width: 570px;
+    margin-left: 0;
+    padding-right: 90px;
+    padding-left: 76px;
+    background-color: #ffffff;
   }
 }
 
@@ -60,6 +82,10 @@
     width: 170px;
     text-align: right;
   }
+
+  @media (min-width: 1300px) {
+    text-align: left;
+  }
 }
 
 .contacts_address__address span {
@@ -75,6 +101,16 @@
 
   @media (min-width: 768px) {
     height: 396px;
+  }
+
+  @media (min-width: 1300px) {
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-height: 400px;
+    width: 100%;
+    height: 400px;
+    background-position: center;
   }
 }
 

@@ -8,6 +8,12 @@
     display: flex;
     align-items: center;
   }
+
+  @media (min-width: 1300px) {
+    width: 752px;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
 }
 
 .fields__email {
@@ -18,6 +24,10 @@
 
   @media (min-width: 768px) {
     width: 120%;
+  }
+
+  @media (min-width: 1300px) {
+    width: 160%;
   }
 }
 
