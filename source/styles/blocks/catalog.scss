@@ -1,8 +1,6 @@
-.catalog__list {
-  color: $main-text;
+.catalog {
   padding-left: 20px;
   padding-right: 20px;
-  list-style: none;
 
   @media (min-width: 768px) {
     padding-left: 30px;
@@ -10,10 +8,30 @@
   }
 
   @media (min-width: 1300px) {
-    margin: 0 auto;
-    max-width: 1400px;
     padding-left: 40px;
     padding-right: 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}
+
+.catalog__list {
+  color: $main-text;
+  //padding-left: 20px;
+  //padding-right: 20px;
+  list-style: none;
+
+  @media (min-width: 768px) {
+    //padding-left: 30px;
+    //padding-right: 30px;
+  }
+
+  @media (min-width: 1300px) {
+    //padding-left: 40px;
+    //padding-right: 40px;
+
+    margin: 0;
+    padding: 0;
 
     display: flex;
     justify-content: space-between;
@@ -34,7 +52,7 @@
   }
 
   @media (min-width: 1300px) {
-    width: 570px;
+    width: 466px;
     padding: 76px 52px 58px;
     margin-bottom: 0;
   }
@@ -56,6 +74,14 @@
     font-size: 36px;
     line-height: 37px;
   }
+
+  @media (min-width: 1300px) {
+    margin-bottom: 75px;
+    padding-left: 162px;
+    font-size: 36px;
+    line-height: 37px;
+    margin-top: 0;
+  }
 }
 
 .catalog__description {
@@ -73,6 +99,12 @@
     line-height: 24px;
     border: 0;
     width: calc(100% - 300px);
+  }
+
+  @media (min-width: 1300px) {
+    width: 100%;
+    margin-bottom: 31px;
+    margin-top: 0;
   }
 }
 
@@ -92,6 +124,10 @@
     font-size: 20px;
     line-height: 20px;
   }
+
+  @media (min-width: 1300px) {
+    padding: 0;
+  }
 }
 
 .catalog__item--slim {
@@ -103,6 +139,11 @@
   @media (min-width: 768px) {
     background-size: 200px 203px;
     background-position: 90% 50%;
+  }
+
+  @media (min-width: 1300px) {
+    background-position: 50px 45px;
+    background-size: 100px 100px;
   }
 }
 
@@ -116,6 +157,11 @@
     background-size: 250px 200px;
     background-position: 90% 50%;
   }
+
+  @media (min-width: 1300px) {
+    background-position: 50px 45px;
+    background-size: 120px 120px;
+  }
 }
 
 .catalog__link--arrow {
@@ -127,5 +173,9 @@
 
   @media (min-width: 768px) {
     background-position: 120px 24px;
+  }
+
+  @media (min-width: 1300px) {
+    background-position: 120px 5px;
   }
 }

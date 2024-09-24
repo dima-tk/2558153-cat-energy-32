@@ -38,6 +38,10 @@
     width: 22%;
     padding: 0;
   }
+
+  @media (min-width: 768px) {
+    width: 10%;
+  }
 }
 
 .page-footer__item-logo-link {
@@ -58,6 +62,10 @@
     border: 0;
     width: 55%;
   }
+
+  @media (min-width: 1300px) {
+    width: 70%;
+  }
 }
 
 .page-footer__item--author {
@@ -67,11 +75,11 @@
 
   @media (min-width: 768px) {
     border: 0;
-    padding: 6px 0 0;
-    width: 200px;
+    padding: 0;
+    width: 150px;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 1300px) {
     padding-left: 120px;
   }
 }
