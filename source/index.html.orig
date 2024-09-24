@@ -29,6 +29,7 @@
 
 <body class="page__body page__body--index">
   <header class="main-header">
+<<<<<<< HEAD
     <div class="main-header__wrapper">
       <a class="main-header__logo logo" href="/">
         <picture>
@@ -36,12 +37,21 @@
           <source type="image/svg+xml" media="(min-width:768px)" srcset="images/logo-tablet.svg" width="174" height="50">
           <img class="main-header__logo-image main-header__logo-image--icon" src="images/logo-mobile.svg" alt="Логотип сайта" width="191" height="38">
         </picture>
+      </a>
+=======
+    <a class="main-header__logo logo" href="/">
+      <picture>
+        <source type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-desktop.svg" width="70" height="59">
+        <source type="image/svg+xml" media="(min-width:768px)" srcset="images/logo-tablet.svg" width="60" height="50">
+        <img class="main-header__logo-image main-header__logo-image--icon" src="images/logo-mobile.svg" alt="Логотип сайта" width="33" height="38">
+      </picture>
       <picture>
         <source type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-text-desktop.svg" width="118" height="21">
         <source type="image/svg+xml" media="(min-width:768px)" srcset="images/logo-text-desktop.svg" width="101" height="18">
         <img class="main-header__logo-image main-header__logo-image--text" src="images/logo-text-desktop.svg" alt="Адрес на карте" width="101" height="18">
       </picture>
-      </a>
+    </a>
+>>>>>>> 05ba9ce (Добавление и подключение svg (#11))
 
       <button class="main-header__menu-toggle main-header__menu-toggle--opened" type="button">
         <span class="visually-hidden">Открыть меню</span>
@@ -188,6 +198,7 @@
   </main>
 
   <footer class="page-footer">
+<<<<<<< HEAD
     <div class="page-footer__wrapper">
       <div class="page-footer__item page-footer__item--logo">
         <a class="page-footer__item-logo-link" href="index.html">
@@ -195,6 +206,12 @@
           <img class="page-footer__item-logo-text" src="images/logo-text-desktop.svg" alt="Cat Energy" width="128" height="24">
         </a>
       </div>
+=======
+    <a class="page-footer__logo logo" href="/">
+      <h3 class="visually-hidden">Cat Energy</h3>
+      <img class="logo__text" src="images/logo-text-desktop.svg" alt="Cat Energy" width="128" height="24">
+    </a>
+>>>>>>> 05ba9ce (Добавление и подключение svg (#11))
 
       <ul class="page-footer__item page-footer__item--social social">
         <li class="social__item">
@@ -214,6 +231,7 @@
         </li>
       </ul>
 
+<<<<<<< HEAD
       <div class="page-footer__item page-footer__item--author">
         <a class="page-footer__item-author-link" href="https://htmlacademy.ru/intensive/adaptive">
           <p class="page-footer__item-author-text">HTML Academy</p>
@@ -221,6 +239,15 @@
         </a>
       </div>
     </div>
+=======
+    </section>
+
+    <a class="page-footer__author author author--htmlacademy" href="https://htmlacademy.ru/intensive/adaptive">
+      <h3 class="page-footer__author-text">HTML Academy</h3>
+      <img class="page-footer__author-icon" src="images/html-academy.svg" alt="Иконка" width="27" height="34">
+    </a>
+
+>>>>>>> 05ba9ce (Добавление и подключение svg (#11))
   </footer>
 
 </body>

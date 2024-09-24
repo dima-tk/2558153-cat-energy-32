@@ -59,6 +59,7 @@
   text-transform: uppercase;
 }
 
+<<<<<<< HEAD
 .main-catalog__foot {
   min-height: 210px;
   padding-top: 30px;
@@ -133,10 +134,10 @@
   @media (min-width: 768px) {
     background-size: 50px 50px;
   }
-}
-
+=======
 .main-catalog__title--plus {
   background-image: url("../../icons/stack.svg#plus");
   background-size: 60px 60px;
   background-repeat: no-repeat;
+>>>>>>> 05ba9ce (Добавление и подключение svg (#11))
 }

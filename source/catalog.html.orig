@@ -28,6 +28,7 @@
 
 <body class="page__body">
   <header class="main-header">
+<<<<<<< HEAD
     <div class="main-header__wrapper">
       <a class="main-header__logo logo" href="/">
         <picture>
@@ -35,12 +36,21 @@
           <source type="image/svg+xml" media="(min-width:768px)" srcset="images/logo-tablet.svg" width="174" height="50">
           <img class="main-header__logo-image main-header__logo-image--icon" src="images/logo-mobile.svg" alt="Логотип сайта" width="191" height="38">
         </picture>
+      </a>
+=======
+    <a class="main-header__logo logo" href="/">
+      <picture>
+        <source type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-desktop.svg" width="70" height="59">
+        <source type="image/svg+xml" media="(min-width:768px)" srcset="images/logo-tablet.svg" width="60" height="50">
+        <img class="main-header__logo-image main-header__logo-image--icon" src="images/logo-mobile.svg" alt="Логотип сайта" width="33" height="38">
+      </picture>
       <picture>
         <source type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-text-desktop.svg" width="118" height="21">
         <source type="image/svg+xml" media="(min-width:768px)" srcset="images/logo-text-desktop.svg" width="101" height="18">
         <img class="main-header__logo-image main-header__logo-image--text" src="images/logo-text-desktop.svg" alt="Адрес на карте" width="101" height="18">
       </picture>
-      </a>
+    </a>
+>>>>>>> 05ba9ce (Добавление и подключение svg (#11))
 
       <button class="main-header__menu-toggle main-header__menu-toggle--opened" type="button">
         <span class="visually-hidden">Открыть меню</span>
@@ -298,9 +308,15 @@
         </li>
 
         <li class="main-catalog__foot">
+<<<<<<< HEAD
           <h3 class="main-catalog__foot-title main-catalog__foot-title--plus">Показать еще 100500 товаров</h3>
           <p class="main-catalog__foot-subscription">На самом деле вкусов гораздо больше!</p>
           <a class="button main-catalog__foot-button button--grey" href="#">Показать все</a>
+=======
+          <h3 class="main-catalog__title main-catalog__title--plus">Показать еще 100500 товаров</h3>
+          <p class="main-catalog__subscription">На самом деле вкусов гораздо больше!</p>
+          <a class="main-catalog__show-button button button--grey" href="#">Показать все</a>
+>>>>>>> 05ba9ce (Добавление и подключение svg (#11))
         </li>
 
       </ul>
@@ -362,6 +378,27 @@
           <div class="addition-catalog__promo addition-catalog__promo--bg">
             <p class="addition-catalog__promo-text addition-catalog__promo-text--gift">Закажите все и получите чехол для кота в подарок!</p>
           </div>
+<<<<<<< HEAD
+=======
+
+          <div class="addition-catalog__item addition-product">
+            <h3 class="addition-product__title">Молоко</h3>
+            <span class="addition-product__quantity">1 литр</span>
+            <span class="addition-product__price">100 Р.</span>
+            <a class="addition-product__button button" href="#">Заказать</a>
+          </div>
+
+          <div class="addition-catalog__item addition-product">
+            <h3 class="addition-product__title">Витамины</h3>
+            <span class="addition-product__quantity">1 упаковка (30 г)</span>
+            <span class="addition-product__price">300 Р.</span>
+            <a class="addition-product__button button" href="#">Заказать</a>
+          </div>
+        </div>
+
+        <div class="addition-catalog__promo addition-catalog__promo--bg">
+          <p class="addition-catalog__promo-text addition-catalog__promo-text--gift">Закажите все и получите чехол для кота в подарок!</p>
+>>>>>>> 05ba9ce (Добавление и подключение svg (#11))
         </div>
       </div>
     </section>
@@ -403,6 +440,7 @@
   </main>
 
   <footer class="page-footer">
+<<<<<<< HEAD
     <div class="page-footer__wrapper">
       <div class="page-footer__item page-footer__item--logo">
         <a class="page-footer__item-logo-link" href="index.html">
@@ -410,6 +448,12 @@
           <img class="page-footer__item-logo-text" src="images/logo-text-desktop.svg" alt="Cat Energy" width="128" height="24">
         </a>
       </div>
+=======
+    <a class="page-footer__logo logo" href="/">
+      <h3 class="visually-hidden">Cat Energy</h3>
+      <img class="logo__text" src="images/logo-text-desktop.svg" alt="Cat Energy" width="128" height="24">
+    </a>
+>>>>>>> 05ba9ce (Добавление и подключение svg (#11))
 
       <ul class="page-footer__item page-footer__item--social social">
         <li class="social__item">
@@ -429,6 +473,7 @@
         </li>
       </ul>
 
+<<<<<<< HEAD
       <div class="page-footer__item page-footer__item--author">
         <a class="page-footer__item-author-link" href="https://htmlacademy.ru/intensive/adaptive">
           <p class="page-footer__item-author-text">HTML Academy</p>
@@ -436,6 +481,15 @@
         </a>
       </div>
     </div>
+=======
+    </section>
+
+    <a class="page-footer__author author author--htmlacademy" href="https://htmlacademy.ru/intensive/adaptive">
+      <h3 class="page-footer__author-text">HTML Academy</h3>
+      <img class="page-footer__author-icon" src="images/html-academy.svg" alt="Иконка" width="27" height="34">
+    </a>
+
+>>>>>>> 05ba9ce (Добавление и подключение svg (#11))
   </footer>
 </body>
 
