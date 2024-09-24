@@ -1,8 +1,6 @@
 (function () {
   const slider = document.querySelector('.live__slider');
-  const clientWidth = document.body.clientWidth;
 
-  //if (clientWidth >= 768) {
   const before = slider.querySelector('.live__slide--before');
   const after = slider.querySelector('.live__slide--after');
   const input = slider.querySelector('.live__range');
@@ -13,7 +11,6 @@
     before.style.width = `${input.value }%`;
     container.style.setProperty('--position', `${e.target.value}%`);
   });
-  //}
 
 
 })();
