@@ -1,6 +1,8 @@
 .slider {
   display: grid;
+  /* stylelint-disable */
   grid-template-columns: calc(var(--position) * 100%) auto calc((1 - var(--position)) * 100%);
+  /* stylelint-enable */
   width: min(100%, 560px);
   aspect-ratio: 280/256;
 }
